@@ -757,6 +757,9 @@ var publicMethods = {
 	getZoomLevel: function() {
 		return _currZoomLevel;
 	},
+	getPanOffset: function () {
+		return [_panOffset.x, _panOffset.y];
+	},
 	getCurrentIndex: function() {
 		return _currentItemIndex;
 	},
